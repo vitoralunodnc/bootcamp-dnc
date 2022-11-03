@@ -113,24 +113,25 @@
         form{
             color:white;
             font-family: var(--fonte-padrao);
+            font-size:30px;
             font-weight: 600;
-            font-size: 30px;
-            width:600px;
+            width: 600px;
         }
 
         .form-group{
             display: flex;
             flex-direction: column;
             margin-top:10px;
-            margin-bottom: 10px;
+            margin-bottom:10px;
         }
 
         form input{
             border-radius: 10px;
-            border:0px;
             height:30px;
+            border:0px;
+            font-size:20px;
             padding:10px;
-            font-size:20px;            
+            background-color: rgba(255, 255, 255, 0.9);
         }
 
         form label{
@@ -138,16 +139,17 @@
         }
 
         form input::placeholder{
-            color:rgba(57, 57, 57, 0.5);
+            color: rgba(57, 57, 57, 0.5);
         }
 
         .checkbox-itens label{
             font-size:25px;
         }
+
         .checkbox-itens{
-            display: flex;
-            align-items: center;
+            display:flex;
             justify-content: space-around;
+            align-items: center;
         }
 
         input[type="checkbox"]{
@@ -155,13 +157,13 @@
         }
 
         input[type="submit"]{
+            background-color: rgba(12, 112, 242, 0.9);
             width:100%;
-            background-color: var(--azul-dnc);
-            height:55px;
-            font-size:32px;
+            height:56px;
+            font-size: 32px;
             color:white;
-            font-weight: 600;
+            margin-top:100px;
             box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
             cursor:pointer;
-            margin-top:80px;
         }
+
